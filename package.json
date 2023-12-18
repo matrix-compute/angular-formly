@@ -97,7 +97,7 @@
     "path-here": "1.1.0",
     "publish-latest": "1.1.2",
     "raw-loader": "0.5.1",
-    "semantic-release": "4.3.5",
+    "semantic-release": "19.0.3",
     "sinon": "1.17.3",
     "sinon-chai": "2.8.0",
     "validate-commit-msg": "2.3.1",
