@@ -68,7 +68,7 @@
     "cracks": "3.1.2",
     "cz-conventional-changelog": "1.1.5",
     "deindent": "0.1.0",
-    "eslint": "1.7.3",
+    "eslint": "9.0.0",
     "eslint-config-kentcdodds": "5.0.0",
     "eslint-loader": "1.1.0",
     "eslint-plugin-mocha": "1.0.0",
