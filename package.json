@@ -90,7 +90,7 @@
     "karma-webpack": "1.7.0",
     "lodash": "4.6.1",
     "lolex": "1.4.0",
-    "mocha": "2.4.5",
+    "mocha": "11.0.1",
     "ng-annotate": "1.2.1",
     "ng-annotate-loader": "0.1.0",
     "node-libs-browser": "1.0.0",
