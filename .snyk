@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - codecov.io > request > hawk:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:hawk:20160119'
+        path: codecov.io > request > hawk
+  'npm:http-signature:20150122':
+    - codecov.io > request > http-signature:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:http-signature:20150122'
+        path: codecov.io > request > http-signature
+  'npm:lodash:20180130':
+    - cracks > lodash:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:lodash:20180130'
+        path: cracks > lodash
+    - isparta > babel-core > lodash:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:lodash:20180130'
+        path: isparta > babel-core > lodash
+    - isparta-loader > isparta > babel-core > lodash:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:lodash:20180130'
+        path: isparta-loader > isparta > babel-core > lodash
+    - publish-latest > repo-path-parse > dox > jsdoctypeparser > lodash:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:lodash:20180130'
+        path: publish-latest > repo-path-parse > dox > jsdoctypeparser > lodash
+  'npm:mime:20170907':
+    - codecov.io > request > form-data > mime:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:mime:20170907'
+        path: codecov.io > request > form-data > mime
+  'npm:minimatch:20160620':
+    - isparta > babel-core > minimatch:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:minimatch:20160620'
+        path: isparta > babel-core > minimatch
+    - isparta-loader > isparta > babel-core > minimatch:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:minimatch:20160620'
+        path: isparta-loader > isparta > babel-core > minimatch
+  'npm:request:20160119':
+    - codecov.io > request:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:request:20160119'
+        path: codecov.io > request
+  'npm:tunnel-agent:20170305':
+    - codecov.io > request > tunnel-agent:
+        patched: '2025-02-06T16:08:18.346Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: codecov.io > request > tunnel-agent
